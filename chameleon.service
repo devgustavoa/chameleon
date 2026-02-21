@@ -1,0 +1,6 @@
+[Unit]
+Description=Colorscheme Switcher (Day/Night)
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/chameleon
